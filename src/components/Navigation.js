@@ -12,9 +12,8 @@ class Navigation extends Component {
     render() {
         return (
             <div>
-                <Navbar bg="primary" variant="dark">
+                <Navbar variant="black">
                     <Container>
-                        <Navbar.Brand href="#home">Chun Tech Innovations</Navbar.Brand>
                         <Nav className="me-auto">
                             <Nav.Link href={"/"}>Home</Nav.Link>
                             <Nav.Link href={"/about"}>About</Nav.Link>
