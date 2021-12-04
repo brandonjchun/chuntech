@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, Nav} from './HeaderElements';
-import { NavDropdown, Container, Form, FormControl, Button } from 'react-bootstrap'
+import { Navbar } from './HeaderElements';
+import { Nav, NavDropdown, Container, Form, FormControl, Button } from 'react-bootstrap'
 
 class Header extends Component {
     render() {
@@ -8,11 +8,18 @@ class Header extends Component {
             <Navbar>
                 <Container>
                     <br />
-                    <Nav>
-                        <div>
-                            Plastic Extrusions and Metal Molding for Designers and Engineers                            Location, phone number, and contact
-                        </div>
-                    </Nav>
+                    <div class="d-flex justify-content-between">
+                        <Nav>
+                            <div>
+                                Plastic Extrusions and Metal Molding for Designers and Engineers
+                            </div>
+                        </Nav>
+                        <Nav>
+                            <div>
+                                Location, phone number, and contact
+                            </div>
+                        </Nav>
+                    </div>
                 </Container>
             </Navbar>
         );
