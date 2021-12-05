@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Navbar = styled.nav`
-    background: #0E4C92;
+    background: white;
     height: auto;
     vertical-align: middle;
     display: flex;

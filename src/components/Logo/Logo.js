@@ -26,13 +26,13 @@ class Logo extends Component {
                                 verticalAlign: "ms"
                             }}
                         />
-                        <div>
+                        <LogoText>
                             <br/>
                             <br/>
                             Call us today at 714-321-4358 to get a quote on 
                             <br/>
                             your custom plastic extrusion or metal molding!!
-                        </div>
+                        </LogoText>
                     </div>
 
                 </LogoContainer>

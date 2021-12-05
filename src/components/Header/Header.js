@@ -14,7 +14,7 @@ class Header extends Component {
                             </Nav.Link>
                             </Nav>
                             <Nav>
-                                <Nav.Link style={{ color: 'white' }} href={"https://www.google.com/maps"}>11681 Spring Field Ave, CA 92833</Nav.Link>
+                                <Nav.Link style={{ color: 'white' }} href={"https://www.google.com/maps"}>16861 Spring Field Ave, CA 92833</Nav.Link>
                                 <Nav.Link style={{ color: 'white' }} href={"/"}>714-321-4358</Nav.Link>
                                 <Nav.Link style={{ color: 'white' }} href={"/contact"}>Contact</Nav.Link>
                             </Nav>

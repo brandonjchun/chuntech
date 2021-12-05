@@ -8,6 +8,7 @@ export const LogoContainer = styled.div`
 export const LogoText = styled.div`
   color: black;
   class: d-flex justify-content-start;
+  font-size: 18px;
 `;
 
 export const LogoImage = styled.div`

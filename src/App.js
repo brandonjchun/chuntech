@@ -6,10 +6,9 @@ import Features from './components/pages/Features';
 import Pricing from './components/pages/Pricing';
 import { Route, Routes, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navigation';
+import Navbar from './components/Navbar/Navigation';
 import Header from './components/Header/Header';
 import Logo from './components/Logo/Logo';
-import Hero from './components/Hero/Hero';
 
 function App() {
   return (
@@ -24,9 +23,6 @@ function App() {
         <Route end path="/pricing" element={<Pricing />} />
         <Route end path="/contact" element={<Contact />} />
       </Routes>
-      <nav>
-        <Link to="/about">Go About</Link>
-      </nav>
 
     </div>
 

@@ -1,5 +1,5 @@
 import React, {useState } from 'react'
-import Navbar from '../Navigation'
+import Navbar from '../Navbar/Navigation'
 import {
   HeroContainer,
   HeroContent,
@@ -20,8 +20,8 @@ const Hero = () => {
     <HeroContainer>
       <HeroContent>
         <HeroItems>
-          <HeroH1>Greatest Artist Of All Time</HeroH1>
-          <HeroP>Master of Sonical Surfing</HeroP>
+          <HeroH1>Expert Plastic Extrusions and Metal Molding</HeroH1>
+          <HeroP>Your trusted source since 1971</HeroP>
         </HeroItems>
       </HeroContent>
     </HeroContainer>
