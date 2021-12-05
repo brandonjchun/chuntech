@@ -8,12 +8,13 @@ import { Route, Routes, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navigation';
 import Header from './components/Header/Header';
-import Logo from './components/Logo';
+import Logo from './components/Logo/Logo';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <Logo />
       <Navbar />
       <Routes>
@@ -23,7 +24,6 @@ function App() {
         <Route end path="/pricing" element={<Pricing />} />
         <Route end path="/contact" element={<Contact />} />
       </Routes>
-
       <nav>
         <Link to="/about">Go About</Link>
       </nav>
@@ -36,6 +36,7 @@ function App() {
 /*
 <Route exact path="__PATH__"/> no longer works in react-router-dom V6, use <Route end path="__PATH__"/>
   https://stackoverflow.com/questions/64718464/navlink-exact-prop-not-working-for-react-router-dom-6
+
 
 
 */

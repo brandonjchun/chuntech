@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavDropdown, Container, Form, FormControl, Button } from 'react-bootstrap'
+import { Nav, NavDropdown, Container, Form, FormControl, Button } from 'react-bootstrap'
 import {
     BrowserRouter as Router,
     Switch,
@@ -8,18 +8,21 @@ import {
     Navlink,
     Link
 } from "react-router-dom";
+import { Navbar } from './NavigationElements';
+
+
 class Navigation extends Component {
     render() {
         return (
             <div>
-                <Navbar variant="black">
+                <Navbar>
                     <Container>
                         <Nav className="me-auto">
-                            <Nav.Link href={"/"}>Home</Nav.Link>
-                            <Nav.Link href={"/about"}>About</Nav.Link>
-                            <Nav.Link href={"/features"}>Features</Nav.Link>
-                            <Nav.Link href={"/pricing"}>Pricing</Nav.Link>
-                            <Nav.Link href={"/contact"}>Contact</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} href={"/"}>Home</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} href={"/about"}>About</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} href={"/features"}>Features</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} href={"/pricing"}>Pricing</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} href={"/contact"}>Contact</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>

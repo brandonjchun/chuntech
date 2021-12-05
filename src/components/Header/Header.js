@@ -7,23 +7,27 @@ class Header extends Component {
         return (
             <Navbar>
                 <Container>
-                    <br />
                     <div class="d-flex justify-content-between">
-                        <Nav>
-                            <div>
-                                Plastic Extrusions and Metal Molding for Designers and Engineers
-                            </div>
-                        </Nav>
-                        <Nav>
-                            <div>
-                                Location, phone number, and contact
-                            </div>
-                        </Nav>
+                            <Nav>
+                                <Nav.Link style={{ color: 'white' }} href={"/"}>
+                                    Plastic Extrusions and Metal Molding for Designers and Engineers
+                            </Nav.Link>
+                            </Nav>
+                            <Nav>
+                                <Nav.Link style={{ color: 'white' }} href={"https://www.google.com/maps"}>11681 Spring Field Ave, CA 92833</Nav.Link>
+                                <Nav.Link style={{ color: 'white' }} href={"/"}>714-321-4358</Nav.Link>
+                                <Nav.Link style={{ color: 'white' }} href={"/contact"}>Contact</Nav.Link>
+                            </Nav>
                     </div>
                 </Container>
-            </Navbar>
+            </Navbar >
         );
     }
 }
 
 export default Header;
+
+/*
+For justification with left, right, center, whatever
+https://getbootstrap.com/docs/5.1/utilities/flex/
+*/
