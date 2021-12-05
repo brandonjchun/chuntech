@@ -12,4 +12,8 @@ const HomeContainer = () => {
   );
 };
 
+/*
+Look up flexbox tutorials tomorrow
+*/
+
 export default HHomeContainerero;
