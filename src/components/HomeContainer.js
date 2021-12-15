@@ -16,4 +16,4 @@ const HomeContainer = () => {
 Look up flexbox tutorials tomorrow
 */
 
-export default HomeContainerero;
+export default HomeContainer;

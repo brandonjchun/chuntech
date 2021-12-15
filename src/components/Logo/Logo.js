@@ -5,7 +5,7 @@ import {
     LogoText,
     LogoImage
 } from './LogoElements.js';
-import LogoPicture from './logo.jpeg'
+import LogoPicture from './logo.jpg'
 
 
 class Logo extends Component {
